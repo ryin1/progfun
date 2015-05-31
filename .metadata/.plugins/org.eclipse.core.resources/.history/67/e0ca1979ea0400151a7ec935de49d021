@@ -1,0 +1,12 @@
+package forcomp
+import forcomp.Anagrams._
+
+object anagram_test {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  val occurrences = List(('a', 2), ('b', 5))      //> occurrences  : List[(Char, Int)] = List((a,2), (b,5))
+  val keys = occurrences map (_._1)               //> keys  : List[Char] = List(a, b)
+ 	sentenceAnagrams(List("married", "player"))
+                                                  //> res0: List[forcomp.Anagrams.Sentence] = List()
+  sentenceOccurrences(List("Linux", "Rulez"))     //> res1: forcomp.Anagrams.Occurrences = List((e,1), (h,1), (l,2), (o,1))
+  dictionaryByOccurrences(wordOccurrences("eat")) //> res2: List[forcomp.Anagrams.Word] = List(ate, eat, tea)
+}

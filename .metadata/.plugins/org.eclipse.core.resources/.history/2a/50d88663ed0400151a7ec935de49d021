@@ -1,0 +1,7 @@
+package forcomp
+import forcomp.Anagrams._
+
+object anagram_test {                             //> Welcome to the Scala worksheet
+  sentenceAnagrams(List("Yes", "man"))            //> res1: List[forcomp.Anagrams.Sentence] = List(List(yes, man), List(en, as, my
+                                                  //| ), List(en, my, as), List(men, say), List(man, yes))
+  }

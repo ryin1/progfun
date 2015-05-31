@@ -1,0 +1,22 @@
+package forcomp
+import forcomp.Anagrams._
+
+object anagram_test {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  val occurrences = List(('a', 2), ('b', 5))      //> occurrences  : List[(Char, Int)] = List((a,2), (b,5))
+  val keys = occurrences map (_._1)               //> keys  : List[Char] = List(a, b)
+ 	sentenceAnagrams(List("Linux", "player")) //> res0: List[forcomp.Anagrams.Sentence] = List(List(in, up, ax, lyre), List(in
+                                                  //| , up, ax, rely), List(in, up, ax, lyre), List(in, up, ax, rely), List(in, up
+                                                  //| , ex, Lyra), List(in, up, ex, Lyra), List(in, up, lax, rye), List(in, up, la
+                                                  //| x, rye), List(in, up, Rex, lay), List(in, up, Rex, lay), List(in, up, lay, R
+                                                  //| ex), List(in, up, lay, Rex), List(in, up, rye, lax), List(in, up, rye, lax),
+                                                  //|  List(in, up, Lyra, ex), List(in, up, lyre, ax), List(in, up, rely, ax), Lis
+                                                  //| t(in, up, Lyra, ex), List(in, up, lyre, ax), List(in, up, rely, ax), List(in
+                                                  //| , rue, ax, ply), List(in, rue, ax, ply), List(in, rue, ply, ax), List(in, ru
+                                                  //| e, ply, ax), List(in, ax, up, lyre), List(in, ax, up, rely), List(in, ax, up
+                                                  //| , lyre), List(in, ax, up, rely), List(in, ax, rue, ply), List(in, ax, rue, p
+                                                  //| ly), List(in, ax, ply, rue), List(in, ax, ply, rue), List(in, ax, lyre, up),
+                                                  //|  List(in, ax, rely, up), List(in, ax, lyre, up), List(in, ax, rely, up), Lis
+                                                  //| t(in, ax, purely), List(
+                                                  //| Output exceeds cutoff limit.
+  }

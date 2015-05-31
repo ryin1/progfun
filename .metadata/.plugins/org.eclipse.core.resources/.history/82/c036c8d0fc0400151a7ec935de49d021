@@ -1,0 +1,9 @@
+package forcomp
+import forcomp.Anagrams._
+
+object anagram_test {
+  sentenceAnagrams(List("Yes", "man"))            //> res0: List[forcomp.Anagrams.Sentence] = List(List(en, as, my), List(en, my, 
+                                                  //| as), List(man, yes), List(men, say), List(as, en, my), List(as, my, en), Lis
+                                                  //| t(sane, my), List(Sean, my), List(my, en, as), List(my, as, en), List(my, sa
+                                                  //| ne), List(my, Sean), List(say, men), List(yes, man))
+  }

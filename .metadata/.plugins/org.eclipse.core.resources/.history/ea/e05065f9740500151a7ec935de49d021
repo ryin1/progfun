@@ -1,0 +1,9 @@
+package forcomp
+import forcomp.Anagrams._
+
+object anagram_test {
+	val word = "asdfas"                       //> word  : String = asdfas
+	word groupBy (x => x)                     //> res0: scala.collection.immutable.Map[Char,String] = Map(s -> ss, d -> d, a -
+                                                  //| > aa, f -> f)
+	
+  }

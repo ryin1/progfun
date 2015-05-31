@@ -1,0 +1,8 @@
+package forcomp
+import forcomp.Anagrams._
+
+object anagram_test {
+	val word = "asdfas"
+	(word groupBy (x => x)) map {case (k, v) => (k -> v.length)}
+
+  }
